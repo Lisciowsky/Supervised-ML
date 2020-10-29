@@ -27,7 +27,7 @@ from sklearn.metrics import confusion_matrix
 
 
     #enter directory location, where the csv file is located
-directory = '/home/kuba/Windows_Old_Staff/ML_THESIS/NBA_python'
+directory = '/directory'
 os.chdir(directory)
     
         
