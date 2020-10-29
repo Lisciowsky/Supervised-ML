@@ -10,13 +10,13 @@ import numpy as np
 import os
 import pandas as pd
 
-#importing classificators / sklearn
+    #importing classificators / sklearn
 
 from sklearn.feature_selection import f_classif
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import mutual_info_classif
 
-#Classificators
+    #Classificators
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
@@ -56,7 +56,7 @@ ready = features_df.values
 
 
 
-# Train Split
+    # Train Split
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(ready, y, test_size=0.25, random_state = 0)
 print('train split correctly')
